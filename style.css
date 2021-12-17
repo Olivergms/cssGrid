@@ -18,11 +18,13 @@ body{
     "footer footer";
     /* Define o tamanho das linhas */
     grid-template-rows: 64px 1fr 40px;
+    /* Define o tamanho das colunas*/ 
     grid-template-columns: 20vw 1fr;
 }
 
 header {
     background-color: green;
+    /*Informando o header o seu posicionamento*/
     grid-area: header;
     /* usando flexbox */
     display: flex;
@@ -33,15 +35,18 @@ header {
 
 main{
     background-color:red;
+    /*Informando a main o seu posicionamento*/
     grid-area: main;
 }
 
 aside{
     background-color:blue;
+    /*Informando a aside o seu posicionamento*/
     grid-area: aside;
 }
 
 footer {
     background-color: grey;
+    /*Informando o footer o seu posicionamento*/
     grid-area: footer;
 }
